@@ -37,7 +37,10 @@ classifiers = [
 ]
 requires-python = ">=3.9"
 
-dependencies = ["pydantic-ai-slim[graph,openai,vertexai,groq,anthropic,mistral]==0.0.19"]
+dependencies = [
+    "pydantic-ai-slim[graph,openai,vertexai,groq,anthropic,mistral]==0.0.19",
+    "python-dotenv>=1.0.1",
+]
 
 [project.urls]
 Homepage = "https://ai.pydantic.dev"
